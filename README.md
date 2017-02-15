@@ -14,7 +14,7 @@ This repository contains hadoop mapreduce programe to filter website urls from C
 - build the project using `mvn package` or right click pom.xml and run as `maven build`
 - Upload the standalone build jar in S3 bucket
 - Add mapreduce step in the Amazon EMR cluster with custom jar option. Browse and add jar from S3 bucket
-- Add [a relative link](#arguments) like explained below
+- Add [arguments](#arguments) like explained below
 - Run the mapreduce step
 
 ### Arguments

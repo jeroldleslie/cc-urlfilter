@@ -25,10 +25,12 @@ It requires 4 arguments to run
 - mapreduce output path
 
 ### Example
+To Run all warc files under a s3 directory
 ```<awsAccessKeyId> <awsSecretAccessKey> s3n://commoncrawl/<segment-path>/*.warc.gz s3n://<bucket-name>/output```
 
 or
 
+Only to run single warc file
 ```<awsAccessKeyId> <awsSecretAccessKey> s3n://commoncrawl/<segment-path>/xxxxx.warc.gz s3n://<bucket-name>/output```
 
 

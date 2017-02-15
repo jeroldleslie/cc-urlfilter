@@ -19,10 +19,10 @@ This repository contains hadoop mapreduce programe to filter website urls from C
 
 ### Arguments
 It requires 4 arguments to run
-1. awsAccessKeyId
-2. awsSecretAccessKey
-3. Common Crawl WARC S3n path
-4. mapreduce output path
+- awsAccessKeyId
+- awsSecretAccessKey
+- Common Crawl WARC S3n path
+- mapreduce output path
 
 ### Example
 ```<awsAccessKeyId> <awsSecretAccessKey> s3n://commoncrawl/<segment-path>/*.warc.gz s3n://<bucket-name>/output```

@@ -27,4 +27,8 @@ It requires 4 arguments to run
 ### Example
 ```<awsAccessKeyId> <awsSecretAccessKey> s3n://commoncrawl/<segment-path>/*.warc.gz s3n://<bucket-name>/output```
 
+or
+
+```<awsAccessKeyId> <awsSecretAccessKey> s3n://commoncrawl/<segment-path>/xxxxx.warc.gz s3n://<bucket-name>/output```
+
 

@@ -17,9 +17,9 @@ public class UrlFilterReduce extends MapReduceBase implements Reducer<Text, Text
   public void reduce(Text key, Iterator<Text> value, OutputCollector<Text, Text> output, Reporter reporter)
       throws IOException {
     while (value.hasNext()) {
-      String urlStr = value.next().toString();
+      URL url = new URL(value.next().toString());
       //Checks url that contains word 'contact'
-      if (urlStr.contains("contact")) {
+      if (url.getPath().contains("contact")) {
         output.collect(key, outValue);
         break;
       }
